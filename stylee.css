@@ -1,10 +1,8 @@
 body{
     
-    background: rgb(182, 182, 209);
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
+background: rgb(182, 182, 209);
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
 }
 .wrap{
     max-width: 35%;
@@ -18,12 +16,18 @@ body{
     margin-top: 20px;
 }
 h2{
-    text-align: left;
-    font-size: 13px;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 p{
-    text-align: unset;
-    font-size: 10px;
+    
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
 }
 input[type=text], input[type=password], [type=url], [type=tel]{
     width: 100%;
@@ -40,7 +44,8 @@ input[type=text], input[type=password], [type=url], [type=tel]{
     text-decoration-style: dashed;
 }
 input[type=submit]{
-    margin-left: 85px;
+    margin-left: 100px;
+    margin-right: 100px;
     width: 50%;
     box-sizing: border-box;
     padding: 10px 0;
@@ -55,7 +60,7 @@ input[type=submit]{
 a{
     font-size: small;
     text-align: center;
-    margin: 6%;
+    margin: 5%;
 }
 .account1{
     margin-left: 25%;
@@ -75,4 +80,25 @@ p2{
 @-ms-viewport{
     width: auto;
     zoom: 1.0;
+}
+
+a.link{
+    font-size: small;
+    text-align: center;
+    margin: 29%;
+}
+
+.col-sm-5{
+    background-color: white;
+    max-width: 30%;
+    
+}
+.col-sm-2{
+    background-color: rgb(182, 182, 209);
+    max-width: 30%;
+    
+}
+div#first{
+    height: 60%;
+    margin-top: 150px;
 }
