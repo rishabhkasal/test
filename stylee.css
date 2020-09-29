@@ -1,0 +1,124 @@
+body{
+    
+background: rgb(182, 182, 209);
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+}
+.wrap{
+    max-width: 35%;
+    height:95%;
+    margin: auto;
+    background: rgb(255, 254, 254);
+    box-sizing: border-box;
+    border-bottom: rgb(26, 2, 2);
+    padding: 40px;
+    color: rgb(8, 0, 0);
+    margin-top: 20px;
+}
+h2{
+    text-align: left;
+    font-size: 10px;
+    margin-left: 55px;
+    
+}
+p{
+    text-align: unset;
+    font-size: 10px;
+    margin-left: 38px;
+}
+input[type=text], input[type=password], [type=url], [type=tel]{
+    width: 65%;
+    margin-left: 31px;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    background: rgba(248, 246, 246, 0.1);
+    outline: none;
+    border: none;
+    border-bottom: 0.000000000000000000000000000000000000000000001px dotted rgb(71, 63, 63);
+    color:rgb(10, 10, 10);
+    border-radius: 5px;
+    margin: 5;
+    font-weight: lighter;
+    text-decoration-style: dashed;
+}
+input[type=submit]{
+    margin-left: 72px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(57, 28, 104);
+    font-size: 85%;
+    color:white;
+    margin-right: auto;
+}
+a{
+    font-size: small;
+    text-align: center;
+    margin-left: 4px;
+}
+.account1{
+    margin-left: 25%;
+}
+h1{
+    font-family: 'Oleo Script Swash Caps';
+    font-size: 250%;
+    margin-bottom: -30;
+    margin-left: -1px;
+}
+@viewport{
+    zoom: 1.0;
+    width: auto;
+}
+@-ms-viewport{
+    width: auto;
+    zoom: 1.0;
+}
+
+a.link{
+    font-size: small;
+    text-align: center;
+    margin: 29%;
+}
+div#first{
+    height: 226px;
+    width: 483px;
+    margin-left: 172px;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 150px;
+}
+div#second{
+    height: 554px;
+    width: 483px;
+    margin-left: 54px;
+    margin-right: auto;
+    background-color: white;
+}
+div#third{
+    width: max-content;
+    height: 27px;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 35px;
+}
+div#fourth{
+    width: 458px;
+    height: 30px;
+    font-size: 28px;
+    margin: 13px;
+    text-align: center;
+    margin-left: -69px;
+}
+div#fifth{
+    max-width: 100%;
+}
+div#sixth{
+    width: 516px;
+}
+
+
